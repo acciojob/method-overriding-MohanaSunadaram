@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args){
 
-        A a = new A();
-        B b = new B();
+        A objA = new A();
+        B objB = new B();
 
-        System.out.println(a.meth());
-        System.out.println(b.meth());
+        System.out.println(objA.meth());
+        System.out.println(objB.meth());
     }
 }
